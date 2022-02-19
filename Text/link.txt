@@ -1,0 +1,40 @@
+Hello #connections...!
+I'm glad to share that I have completed
+my #task3 as a web and mobile development intern 
+at #TheSparksFoundation under #GRIPJANUARY22 program.
+
+#task3: Payment Gateway Integration
+This is a donation website where payment gateway is integrated.
+IDE: Visual Studio Code 
+Languages: HTML, CSS, JavaScript.
+Payment Gateway: Razorpay.
+
+Github link: 
+Website link:https://lagadreshma.github.io/TSFDonation2022/
+Thanks to The Sparks Foundation for giving me 
+this opportunity to improve my skills.
+
+#webdevelopment #intern #thesparksfoundation 
+#task3 #gripjan22 #github #paymentgateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#TheSparksFoundation #Internship2022
+
+This is a donation website.
+Created under the Guidance of thesparksfoundation.
+Languages: HTML, CSS, JavaScript.
+Payment Gateway: Razorpay.
+Host on: github.io

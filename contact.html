@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit= no">
+    <title> Donation Website </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "about-section">
+
+       <nav>
+           <a href="index.html"><img src="images/present.jpg" width= "100px;"></a>
+
+           <div class="navbar" id = "navlinks">
+
+            <i class = "fa fa-times" onclick="show();"></i>
+      
+               <ul id= "MenuItems">
+                 <li><a href = "index.html"> Home </a></li>
+                 <li><a href = "about.html"> About Us </a></li>
+                 <li><a href = "contact.html"> Contact Us </a></li>
+                 <li><a href = "index.html"> Donate </a></li>
+               </ul>
+
+           </div>
+
+            <i class = "fa fa-bars" onclick="hide();"></i>
+      
+       </nav>
+
+    </section>       
+    
+        <section class="contact"> 
+                  
+            <form id="contact-form" action = "index.php" method = "POST" >
+               <h3> Contact Us </h3> 
+                <input name = "username" type = "text" class = "field" placeholder="Your Name" required><br>
+    
+                <input name = "email" type = "email" class = "field" placeholder="Your Email" required><br>
+     
+                <textarea name = "messages" class = "field" placeholder="Message" row = "4" required></textarea><br>
+     
+                <input type= "submit" class = "field submit" name = "submit1" value= "SEND MESSAGE"><br>
+     
+            </form>
+
+            </script>
+        </section>
+        <section class = "footer">
+            <div class="container">
+                <div class="col-3">
+                  <div class="f-title">
+                    <h2> About </h2>
+                  </div>
+                  <div class="f-desc">
+                     <p> We connect all students of all financial backgrounds with experts.
+                         <br>
+                         Knowledge sharing enables equal opportunity for all.
+                     </p>
+                  </div>
+                </div>
+                <div class="col-3">
+                 <div class="f-title">
+                    <h2> Links </h2>
+                 </div>
+                 <div class="f-desc">
+                     <ul id = "">
+                         <li><a href = "home.html"> Home </a></li>
+                         <li><a href = "about.html"> About Us </a></li>
+                         <li><a href = "contact.html"> Contact Us </a></li>
+                         <li><a href = "#Donate"> Donate </a></li>
+                       </ul>
+                 </div>
+               </div>
+               <div class="col-3">
+                 <div class="f-title">
+                    <h2> Contact </h2>
+                 </div>
+                 <div class="f-desc">
+                     <div class="icon">
+                         <a href="">
+                             <i class="fa fa fa-facebook"></i>
+                         </a>
+                         <a href="">
+                           <i class="fa fa fa-instagram"></i>
+                         </a>
+                         <a href="">
+                           <i class="fa fa fa-youtube"></i>
+                         </a>
+                         <a href="https://www.linkedin.com/in/shubham-giramkar-0253bb1aa">
+                           <i class="fa fa fa-linkedin"></i>
+                         </a>
+                     </div>
+                 </div>
+               </div>
+            </div>
+            <hr style= "background-color: #555;"> 
+            <p> &copy;copyrights2022 TSF. All rights reserved!<br>
+            made by @ShubhamGiramkar. </p>
+         </section>
+
+    <!-- Add JavaScript File -->
+    <script src = "main.js"> </script>
+
+</body>
+</html>
