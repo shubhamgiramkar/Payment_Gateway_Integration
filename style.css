@@ -21,16 +21,16 @@ body{
 
 @keyframes animate{
     0%,100%{
-        background-image: url("images/img5.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     25%{
-        background-image: url("images/img6.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     50%{
-        background-image: url("images/img7.jpg");
+        background-image: url("images/bank-back.jpg");
     }
     75%{
-        background-image: url("images/img8.jpg");
+        background-image: url("images/bank-back.jpg");
     }
 }
 
@@ -68,7 +68,7 @@ nav a img{
     transition: border 0.5ms ease-in-out;
 }
 .navbar ul li a:hover, a:active{
-    background-color: #0097e6;
+    background-color: #75ecb1;
     border: 2px solid rgb(0, 0, 0);
     
 }
@@ -96,10 +96,24 @@ nav a img{
     font-size: 35px;
     padding-bottom: 20px;
 }
+.Text .button{
+    background-color: #ddaa81;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px; 
+    position: relative;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: border 0.5ms ease-in-out;
+}
+.Text .button:hover,.button:active{
+    background-color: #75ecb1;
+    border: 2px solid rgb(0, 0, 0);
+} 
 
 /***** For Mission section *****/
 
-.our-mission{
+/*.our-mission{
     width: 100%;
     padding: 5px;
 }
@@ -108,14 +122,14 @@ nav a img{
    padding: 50px 0px;
    text-transform: uppercase;
    color:rgb(148, 42, 3);
-}
+}*/
 .container{
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*
 .mission-box{
     display: flex;
     border: 2px solid rgb(0, 0, 0);
@@ -210,70 +224,8 @@ nav a img{
 }
 
 
-/*************** For About Page ***************/
+/*************** For Customer Page ***************/
 
-.about-section{
-    background: rgb(55, 55, 197);
-}
-nav img{
-    padding: 5px 20px;
-}
-.About{
-    width: 100%;
-}
-.About .format{
-    width: 100%;
-    margin: 0px auto;
-    padding: 50px 20px;
-}
-.About .format .a-title{
-    width: 100%;
-    padding-bottom: 50px;
-    text-align: center;
-}
-.format .a-title h1{
-    text-transform: uppercase;
-    color:blue;
-    font-size: 35px;
-}
-.format .a-title h1::after{
-    content: "";
-    height: 5px;
-    width: 100px;
-    background: rgb(87, 87, 235);
-    border-radius: 25px;
-    margin:auto;
-    display: block;
-}
-.content{
-    float: left;
-    width: 55%;
-}
-.image{
-    float: right;
-    width: 40%;
-}
-.image img{
-    width: 100%;
-    margin: auto;
-}
-.content .artical .button{
-    padding: 30px;
-}
-.content .artical .button a{
-    text-decoration: none;
-    padding: 8px 25px;
-    color: #fff;
-    background: rgb(73, 73, 212);
-    border-radius: 25px;
-    font-size: 25px;
-}
-.content .artical .button a:hover{
-    background: blue;
-}
-.footer{
-    clear: both;
-}
 
 /************* For Contact Page **************/
 
