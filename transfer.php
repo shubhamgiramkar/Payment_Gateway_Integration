@@ -206,11 +206,11 @@ while($rows=$result->fetch_assoc())
     $userha=$ubal-$amount;
     $recieverha=$rbal+$amount;
    
-    $sql="UPDATE users SET Balance='$userha' WHERE Name=$user";
+    $sql="UPDATE users SET Balance='$userha' WHERE Name='$user'";
 
     $db->query($sql);
 
-    $sql="UPDATE users SET Balance='$recieverha' WHERE Name=$reciver";
+    $sql="UPDATE users SET Balance='$recieverha' WHERE Name='$reciver'";
 
     $db->query($sql);
 
